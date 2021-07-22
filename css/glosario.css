@@ -1,0 +1,117 @@
+.principio {
+  width: 100%;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+}
+
+body {
+  background-image: url(img/marmol.jpg);
+  background-size: cover;
+}
+
+/*----------SECCIÓN 1----------*/
+
+h1 {
+  color: cadetblue;
+  font-size: var(--titulo-h1);
+  font-family: monospace;
+  text-align: center;
+}
+
+.p1 {
+  font-size: var(--parrafo-2);
+  color: rgb(61, 55, 55);
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/*----------SECCIÓN 2----------*/
+
+table {
+  border-collapse: collapse;
+  border-bottom-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+table th {
+  text-align: center;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  font-size: var(--titulo-h4);
+}
+td {
+  font-size: var(--parrafo-1);
+  text-align: center;
+}
+
+/*----------SECCIÓN 3----------*/
+h2 {
+  color: brown;
+  font-size: var(--titulo-h2);
+  text-align: justify;
+  margin: 5rem 0rem 2rem 0rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.tp2 {
+  font-size: var(--parrafo-2);
+  margin: 1rem 0rem 5rem 0rem;
+  color: rgb(61, 55, 55);
+  text-align: center;
+}
+
+tr,td {
+  border: 0.2rem solid Black;
+}
+.casillas {
+  text-align: center;
+  color: aliceblue;
+  background-color: cornflowerblue;
+  font-size: var(--titulo-h4);
+}
+
+.ggg{
+	text-align: center;
+}
+
+/*----------SECCIÓN 4----------*/
+
+h3 {
+  color: cornflowerblue;
+  font-size: var(--titulo-h3);
+  margin: 3rem 0rem 0rem 0rem;
+  text-align: center;
+}
+p {
+  font-size: var(--parrafo-2);
+  margin: 1rem 0rem 5rem 0rem;
+  color: rgb(61, 55, 55);
+  text-align: center;
+}
+
+.fafa {
+  width: 300px;
+  height: 350px;
+  margin: 15px 0px 0px 275px;
+}
+
+/*responsive*/
+@media screen and (max-width: 376px) {
+  /* STYLES HERE */
+  :root {
+    --phone-laterh1: 2rem;
+    --phone-laterh2: 1.5rem;
+    --phone-laterh3: 1.3rem;
+    --phone-paraf: 1rem;
+  }
+
+  .img {
+    display: none;
+  }
+  .fafa {
+    display: none;
+  }
+}
